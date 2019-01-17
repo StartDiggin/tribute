@@ -1,0 +1,65 @@
+body {
+  background-color: #fff;
+  display: grid;
+}
+
+#main {
+  background-color: #eee;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#title {
+  display: grid;
+  justify-self: center;
+}
+
+#text {
+  display: grid;
+  justify-self: center;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#img-div {
+  margin: 15px;
+  background-color: #fff;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+#img-caption {
+  font-size: 1.1em;
+  text-align: center;
+  margin: 10px;
+}
+
+#tribute-info {
+  display: grid;
+  grid-template-columns: 200px 4fr 200px;
+}
+
+#info {
+  grid-area: 1/2/2/3;
+}
+
+li {
+  margin: 15px;
+}
+
+#quote {
+  text-align: center;
+}
+
+#cite {
+  text-align: center;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+}
